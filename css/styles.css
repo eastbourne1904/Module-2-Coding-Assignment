@@ -1,0 +1,40 @@
+.row {
+  margin-bottom: 15px;
+  align-items: stretch;
+}
+.row > div {
+  border: 2px solid black;
+  background-color: grey;
+  width: 318px;
+  margin: 2px;
+}
+
+#myHeader {
+  font-family: Arial, sans-serif;
+  border: none;
+  background-color: none;
+  margin: 10px;
+  text-align: center;
+}
+.row > div > span {
+  border-color: black;
+  border-width: medium;
+}
+#Sushi {
+  background-color: #FBC384;
+  width:75px;
+  text-align: center;
+}
+#Beef {
+  background-color: #BD4328;
+  width:75px;
+  text-align: center;
+}
+#Chicken {
+  background-color: #EB8A74;
+  width:75px;
+  text-align: center;
+}
+.wrapper {
+  display: grid;
+}
